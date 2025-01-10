@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+}
+
+body{
+    background: #F5F5F5;
+}
+
+.container{
+    max-width: calc(100 - 20px);
+    padding: 0 8%;
+    margin-inline: auto;
+}
+
+/* Header Section Start here */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.logo_name{
+    font-size: 30px;
+    color:#0E0E0E;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navbar_btn{
+    font-weight: 600;
+    font-size: 16px;
+    color:#006A50 ;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 15px 30px;
+    cursor: pointer;
+    background: transparent;
+}
+
+/* Header Section End */
+
+/* Hero Section Start */
+    .hero_contents{
+        display: flex;
+        justify-content: space-between;
+        background: #C6E4D6;
+        padding: 70px 38px;
+        border-radius: 24px;
+        margin-top: 32px;
+    }
+
+    .hero_inner-content{
+        width: 612px;
+    }
+
+    .hero_inner-content{
+        margin-top: 50px;
+
+    }
+
+    .hero_subtitle{
+        font-size: 22px;
+        font-weight: 500;
+        color:#0E0E0E80;
+        margin-bottom: 16px;;
+    }
+
+    .hero_title{
+        font-size: 56px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+
+    .hero_btn{
+        padding: 17px 34px;
+        background: #006A50;
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 18px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+/* Hero Section End */
+
+/* Card Design Start Here */
+
+    .pillars_section{
+    margin-top: 80px;
+    }
+
+    .pillar_title{
+        font-weight: 700;
+        font-size: 40px;
+        color:#0E0E0E ;
+    }
+
+    .pillar_box{
+        margin-top: 32px;
+    }
+
+    .pillar_card-img{
+        width: 64px;
+        height: 64px;
+    }
+
+    .pillar_box-content{
+        background:#FFFFFF;
+        padding: 24px;
+        width: 278px;
+        border: 1px solid #0E0E0E26;
+        border-radius: 16px;
+    }
+
+    .pillar_box-title{
+        font-weight: 700;
+        font-size: 20px;
+        color: #0E0E0ECC;
+        margin-top: 24px;
+    }
+
+    .pillar_desc{
+        font-weight: 400;
+        font-size: 16px;
+        color: #0E0E0EB2;
+        margin-top: 12px;
+    }
+
+    .pillar_box{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+/* Card Design End Here */
+
+/* Future Card Design Start */
+.future_section{
+    margin-top: 80px;
+}
+
+.future_cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.future_title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+
+.future_desc{
+    color: #0E0E0EB2;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.future_card-box{
+    width: 410.67px;
+    padding: 32px;
+    background: #5490F533;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+
+.future_cards-btn{
+    background: #5490F5;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border:none;
+    border-radius: 8px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.future_card-box-two{
+    background: #C6E4D6;
+}
+
+.future_cards-btn-two{
+    background: #09A15C;
+    margin-top: 44px;
+}
+
+.future_card-box-three{
+    background:#F7EBCF;
+}
+
+.future_cards-btn-three{
+    background: #FFC239;
+}
+
+/* Future Card Design End */
+
+/* Govern Section Start */
+.govern-section{
+    margin-top: 32px;
+}
+
+.govern-box{
+    padding: 48px 24px;
+    border: 1px solid #0E0E0E26;
+    border-radius: 16px;
+}
+
+.comma_icon-img img{
+    width: 64px;
+    height: -64px;
+}
+
+.govern__inner-content{
+    margin-top: -40px;
+}
+
+.govern-desc{
+    color: #0E0E0ECC;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.auth_name{
+    font-weight: 600;
+    font-size: 20px;
+    color: #0E0E0ECC;
+    margin-bottom: 4px;
+}
+
+.auth_desc{
+    color:#0E0E0E99 ;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* Govern Section End */
