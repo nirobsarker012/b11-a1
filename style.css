@@ -242,3 +242,132 @@ body{
     font-size: 16px;
 }
 /* Govern Section End */
+
+/* Opinion Section Design Start */
+.opinion-section{
+    margin-top: 80px;
+}
+
+.opinion_header{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.opinion_box{
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.opinion_title{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #0E0E0E26;
+    padding: 24px;
+    background: #C6E4D6;
+}
+
+.opinion_title-one{
+    color: #0E0E0E;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.opinion_title-two{
+    color: #0E0E0E;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.opinion_inner-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.opinion_ques-list{
+    display: flex;
+    flex-direction: column;
+    min-width: 84%;
+}
+
+.opinion_ques-inner-item-one{
+    display: flex;
+    align-items: center;
+    gap: 2.5px;
+    background: #C6E4D6;
+    color: #0E0E0E;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 10px 14px;
+    border: 1px solid #0E0E0E;
+}
+
+.opinion_ques-inner-item-two{
+    display: flex;
+    align-items: center;
+    gap: 2.5px;
+    background: #C6E4D6;
+    color: #0E0E0E;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 10px 14px;
+    border: 1px solid #0E0E0E;
+}
+
+.opinion_ques-inner-item-three{
+    display: flex;
+    align-items: center;
+    gap: 2.5px;
+    background: #C6E4D6;
+    color: #0E0E0E;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 10px 14px;
+    border: 1px solid #0E0E0E;
+}
+
+.opinion_ques-bar{
+    display: flex;
+    flex-direction: column;
+}
+
+.opinion_ques-one{
+    width: 100%;
+    border-left: 1px solid #0E0E0E26;
+    border-bottom: 1px solid #0E0E0E26;
+    border-right: 1px solid #0E0E0E26;
+    padding: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.opinion_ques-two{
+    width: 100%;
+    border-left: 1px solid #0E0E0E26;
+    border-bottom: 1px solid #0E0E0E26;
+    border-right: 1px solid #0E0E0E26;
+    padding: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.opinion_ques-three{
+    width: 100%;
+    border-left: 1px solid #0E0E0E26;
+    border-bottom: 1px solid #0E0E0E26;
+    border-right: 1px solid #0E0E0E26;
+    padding: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.opinion_ques-inner-items{
+    margin-top: 24px;
+    border-right: 1px solid #0E0E0E26;
+    border-bottom: 1px solid #0E0E0E26;
+}
+
+
+/* Opinion Section Design End */
