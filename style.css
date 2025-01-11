@@ -484,3 +484,48 @@ body{
     margin-bottom: 32px;
 }
 /* Donate Design End */
+
+/* Contact Design start here */
+.contact_section{
+    margin-top: 80px;
+}
+
+.contact_box{
+    text-align: center;
+    background: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 100px;
+}
+
+.contact_inner{
+    margin: 0 auto;
+    width: 622px;
+    margin-bottom: 24px;
+}
+
+.email{
+    border: none;
+    color: #0E0E0E4D;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px 0 0 8px;
+    padding: 18px 40px;
+    min-width:750px
+}
+
+.email_box{
+    display:flex;
+    margin-left: 10%;
+    margin-bottom: 24px;
+}
+
+.email_btn{
+    border-radius: 0 8px 8px 0;
+}
+
+.responsibility_title{
+    color: #0E0E0EB2;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Contact Design End here */
